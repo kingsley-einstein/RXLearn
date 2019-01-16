@@ -38,4 +38,8 @@ public class Producer extends Thread {
     public void printValues() {
         System.out.println(l);
     }
+
+    public List<Long> getL() {
+        return l;
+    }
 }
